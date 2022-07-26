@@ -1,4 +1,26 @@
+:root {
+  --text-color: #33323d;
+  --btn-bg: #203a4c;
+  --link-color: #5fb4a2;
+}
 
+@font-face {
+  font-family: 'Public Sans';
+  src: url('PublicSans-Regular.woff2') format('woff2'),
+      url('PublicSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ibarra Real Nova';
+  src: url('IbarraRealNova-Bold.woff2') format('woff2'),
+      url('IbarraRealNova-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 
 /* GLOBAL */
 html {
@@ -32,9 +54,9 @@ img {
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1150px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
